@@ -593,6 +593,10 @@ video {
   display: none;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -678,14 +682,14 @@ video {
   font-weight: 700;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-darkGrayishBlue {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:bg-brightRedLight:hover {
